@@ -1,6 +1,6 @@
 {
     "name": "unicate/packagist-test",
-    "description": "Test publishing on packagist",
+    "description": "Test publishing on packagist.",
     "type": "library",
     "license": "MIT",
     "require": {

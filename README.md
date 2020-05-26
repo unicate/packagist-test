@@ -1,6 +1,6 @@
 # Unicate Packagist Test
 
-Test publishing on Packagist
+Test publishing on Packagist.
 
 ### Installing
 
@@ -12,13 +12,15 @@ composer require unicate/packagist-test
 
 ### Example
 
-#### v0.0.1
+#### v1.1
 
 ```php
 <?php
 
 require_once "vendor/autoload.php";
 
-$hello = new Unicate\PackagistTest\Hello("World");
+use Unicate\PackagistTest\Hello;
+
+$hello = new Hello('wonderful World!');
 $hello->sayHello();
 
